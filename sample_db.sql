@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- 主機: 127.0.0.1
--- 產生時間： 2016-02-23: 07:50:31
+-- 產生時間： 2016-02-23: 08:07:54
 -- 伺服器版本: 5.6.17
 -- PHP 版本： 5.5.12
 
@@ -62,7 +62,7 @@ CREATE TABLE IF NOT EXISTS `score` (
 --
 
 INSERT INTO `score` (`usr_id`, `score`, `subject`, `id`) VALUES
-('S201600001', 60, 'C', 1),
+('S201600001', 65, 'C', 1),
 ('S201600002', 65, 'C', 2),
 ('S201600001', 75, 'database', 3),
 ('S201600002', 85, 'database', 4);
