@@ -5,3 +5,4 @@ php連線mysql基本語法
 |mysql.inc.php         |php跟mysql連線方法    |
 |select_tbl.php        |列出資料表所有內容    |
 |columns.php           |列出欄位名稱          |
+|xls.php               |將查詢結果輸出成xls   |
