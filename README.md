@@ -10,7 +10,7 @@ php連線mysql基本語法
 
 
 關聯
-|                                   |                                            |                                 |
+|1                                  |2                                           |3                                |
 |-----------------------------------|--------------------------------------------|---------------------------------|
 |[index.html](index.html)           |[mysql.inc.php](conn/mysql.inc.php)         |                                 |
 |                                   |[select_tbl.php](function/select_tbl.php)   |                                 |
