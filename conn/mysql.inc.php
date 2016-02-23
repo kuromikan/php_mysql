@@ -9,8 +9,10 @@ if (!$ttc_cable)
 	{
 		die('無法連線: ' . mysql_error());
 	}
+mysql_query('SET NAMES UTF8');
 if(!mysql_select_db($database_ttc_cable,$ttc_cable))
 	{
 		die("無法使用資料庫");
 	}
+
 ?>
