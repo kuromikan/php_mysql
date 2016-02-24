@@ -22,6 +22,26 @@ function showResult(str) {
         xmlhttp.send();
     }
 }
+function mysql_insert() {
+
+        if (window.XMLHttpRequest) {
+            // code for IE7+, Firefox, Chrome, Opera, Safari
+            xmlhttp = new XMLHttpRequest();
+        } else {
+            // code for IE6, IE5
+            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange = function() {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                document.getElementById("txtHint_insert").innerHTML = xmlhttp.responseText;
+            }
+        };
+		var str=document.getElementById("txt_insert").value;
+		alert(str);
+        xmlhttp.open("GET","function/insert.php?subject="+str,true);
+        xmlhttp.send();
+    
+}
 </script>
 </head>
 <body>
@@ -36,6 +56,9 @@ function showResult(str) {
   <option value="order.php">order by</option>
   <option value="xls.html">xls download</option>
   <option value="join.php">join</option>
+  <option value="insert.html">insert</option>
+  <option value="update.html">update</option>
+  <option value="delete.html">delete</option>
   </select>
 </form>
 <br>

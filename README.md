@@ -10,17 +10,19 @@ php連線mysql基本語法
 |[order.php](function/order.php)             |排序、反排序                      |
 |[xls.php](function/xls.php)                 |將查詢結果輸出成xls               |
 |[join.php](function/join.php)               |三種合併查詢方法                  |
+|[insert.php](function/insert.html)          |執行insert into                   |
 
 
 關聯
 
-|1                                  |2                                           |3                                |
-|-----------------------------------|--------------------------------------------|---------------------------------|
-|[index.html](index.html)           |[mysql.inc.php](conn/mysql.inc.php)         |                                 |
-|                                   |[select_tbl.php](function/select_tbl.php)   |                                 |
-|                                   |[columns.php](function/columns.php)         |                                 |
-|                                   |[where.php](function/columns.php)           |                                 |
-|                                   |[group.php](function/columns.php)           |                                 |
-|                                   |[order.php](function/columns.php)           |                                 |
-|                                   |[xls.html](function/xls.html)               |[xls.php](function/xls.php)      |
-|                                   |[join.php](function/join.php)               |                                 |
+|1                                  |2                                           |3                                   |
+|-----------------------------------|--------------------------------------------|------------------------------------|
+|[index.html](index.html)           |[mysql.inc.php](conn/mysql.inc.php)         |                                    |
+|                                   |[select_tbl.php](function/select_tbl.php)   |                                    |
+|                                   |[columns.php](function/columns.php)         |                                    |
+|                                   |[where.php](function/columns.php)           |                                    |
+|                                   |[group.php](function/columns.php)           |                                    |
+|                                   |[order.php](function/columns.php)           |                                    |
+|                                   |[xls.html](function/xls.html)               |[xls.php](function/xls.php)         |
+|                                   |[join.php](function/join.php)               |                                    |
+|                                   |[insert.html](function/insert.html)         |[insert.php](function/insert.php)   |
