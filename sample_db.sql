@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- 主機: 127.0.0.1
--- 產生時間： 2016-02-23: 08:07:54
+-- 產生時間： 2016-02-24: 07:31:05
 -- 伺服器版本: 5.6.17
 -- PHP 版本： 5.5.12
 
@@ -66,6 +66,29 @@ INSERT INTO `score` (`usr_id`, `score`, `subject`, `id`) VALUES
 ('S201600002', 65, 'C', 2),
 ('S201600001', 75, 'database', 3),
 ('S201600002', 85, 'database', 4);
+
+-- --------------------------------------------------------
+
+--
+-- 資料表結構 `subject`
+--
+
+CREATE TABLE IF NOT EXISTS `subject` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `subject` varchar(20) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=9 ;
+
+--
+-- 資料表的匯出資料 `subject`
+--
+
+INSERT INTO `subject` (`id`, `subject`) VALUES
+(1, 'C'),
+(2, 'database'),
+(3, 'android'),
+(4, 'java'),
+(5, 'Eng');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
