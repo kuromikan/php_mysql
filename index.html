@@ -37,8 +37,46 @@ function mysql_insert() {
             }
         };
 		var str=document.getElementById("txt_insert").value;
-		alert(str);
         xmlhttp.open("GET","function/insert.php?subject="+str,true);
+        xmlhttp.send();
+    
+}
+function mysql_update() {
+
+        if (window.XMLHttpRequest) {
+            // code for IE7+, Firefox, Chrome, Opera, Safari
+            xmlhttp = new XMLHttpRequest();
+        } else {
+            // code for IE6, IE5
+            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange = function() {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                document.getElementById("txtHint_insert").innerHTML = xmlhttp.responseText;
+            }
+        };
+		var update=document.getElementById("txt_update").value;
+		var id=document.getElementById("txt_id").value;
+        xmlhttp.open("GET","function/update.php?update="+update+"&id="+id,true);
+        xmlhttp.send();
+    
+}
+function mysql_delete() {
+
+        if (window.XMLHttpRequest) {
+            // code for IE7+, Firefox, Chrome, Opera, Safari
+            xmlhttp = new XMLHttpRequest();
+        } else {
+            // code for IE6, IE5
+            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange = function() {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                document.getElementById("txtHint_insert").innerHTML = xmlhttp.responseText;
+            }
+        };
+		var id=document.getElementById("txt_id").value;
+        xmlhttp.open("GET","function/delete.php?id="+id,true);
         xmlhttp.send();
     
 }
