@@ -10,9 +10,10 @@ php連線mysql基本語法
 |[order.php](function/order.php)             |排序、反排序                      |
 |[xls.php](function/xls.php)                 |將查詢結果輸出成xls               |
 |[join.php](function/join.php)               |三種合併查詢方法                  |
-|[insert.php](function/insert.php)          |執行insert into                   |
-|[update.php](function/update.php)          |執行update                        |
-|[delete.php](function/delete.php)          |執行delete                        |
+|[insert.php](function/insert.php)           |執行insert into                   |
+|[update.php](function/update.php)           |執行update                        |
+|[delete.php](function/delete.php)           |執行delete                        |
+|[pivot.php](function/pivot.php)             |將值轉換成欄位                    |
 
 
 關聯
@@ -30,3 +31,4 @@ php連線mysql基本語法
 |                                   |[insert.html](function/insert.html)         |[insert.php](function/insert.php)   |
 |                                   |[update.html](function/update.html)         |[update.php](function/update.php)   |
 |                                   |[delete.html](function/delete.html)         |[delete.php](function/delete.php)   |
+|                                   |[pivot.php](function/pivot.php)             |                                    |
