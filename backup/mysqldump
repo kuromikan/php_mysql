@@ -1,0 +1,1 @@
+mysqldump -u帳號 -p密碼 資料庫名稱 > 檔名.sql
